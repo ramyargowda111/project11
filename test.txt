@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #FF5722;
+        }
+        ul {
+            list-style-type: square;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Simple HTML Page</h1>
+    <p>This page includes an image, a list, and a simple form.</p>
+    
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image" width="300" height="200">
+
+    <h2>My Favorite Fruits</h2>
+    <ul>
+        <li>Apples</li>
+        <li>Oranges</li>
+        <li>Bananas</li>
+    </ul>
+
+    <h2>Contact Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+        <button type="submit">
+
